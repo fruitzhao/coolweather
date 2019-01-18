@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="15dp">
 
-    <!--<TextView-->
-        <!--android:id="@+id/lifestyle_brief_text"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:textColor="#fff"-->
-        <!--android:textSize="15dp"/>-->
+    <TextView
+        android:id="@+id/lifestyle_brief_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="16dp"/>
 
     <TextView
         android:id="@+id/lifestyle_info_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="16dp"
         android:textColor="#fff"
-        android:textSize="15dp"/>
+        android:textSize="14dp"/>
 
 </LinearLayout>
