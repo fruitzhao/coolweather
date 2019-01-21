@@ -20,7 +20,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static boolean isLoc = false;
+    //public static boolean isLoc = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

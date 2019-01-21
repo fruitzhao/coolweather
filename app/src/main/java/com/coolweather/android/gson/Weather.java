@@ -20,4 +20,7 @@ public class Weather {
     @SerializedName("lifestyle")
     public List<LifeStyle> lifeStyleList;
 
+    @SerializedName("hourly")
+    public List<Hourly> hourlyList;
+
 }

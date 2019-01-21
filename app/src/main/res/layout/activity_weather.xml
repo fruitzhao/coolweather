@@ -21,12 +21,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
+
             <ScrollView
                 android:id="@+id/weather_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scrollbars="none"
-                android:overScrollMode="never">
+                android:overScrollMode="never"
+                android:fitsSystemWindows="true">
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -39,6 +41,10 @@
                     <include layout="@layout/now" />
 
                     <include layout="@layout/forecast" />
+
+                    <include layout="@layout/hourly" />
+
+                    <include layout="@layout/air" />
 
                     <include layout="@layout/lifestyle" />
 

@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#fff"
-        android:textSize="16dp"/>
+        android:textSize="15sp"/>
 
     <TextView
         android:id="@+id/lifestyle_info_text"
@@ -20,6 +20,6 @@
         android:layout_marginTop="14dp"
         android:layout_marginLeft="16dp"
         android:textColor="#fff"
-        android:textSize="14dp"/>
+        android:textSize="13sp"/>
 
 </LinearLayout>

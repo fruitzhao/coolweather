@@ -10,4 +10,11 @@ public class Now {
 
     @SerializedName("cond_txt")
     public String info;
+
+    @SerializedName("fl")
+    public String senseTmp;
+
+    public String wind_sc;
+
+    public String wind_dir;
 }
