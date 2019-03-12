@@ -4,14 +4,19 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="15dp"
-    android:background="#8000">
+    android:layout_marginBottom="15dp"
+    android:id="@+id/lifestyle_switch">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#CCCCCC" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:text="生活建议"
         android:textColor="#fff"
         android:textSize="18sp"/>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="frequency">
+        <item>每三小时</item>
+        <item>每六小时</item>
+        <item>每天</item>
+        <item>从不</item>
+    </string-array>
+
+    <string-array name="fre_index">
+    <item>3</item>
+    <item>6</item>
+    <item>12</item>
+    <item>0</item>
+</string-array>
+
+</resources>

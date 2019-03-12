@@ -2,13 +2,15 @@ package com.coolweather.android.gson;
 
 import com.google.gson.annotations.SerializedName;
 
-public class Basic {
+public class CityBasic {
+
+    @SerializedName("cid")
+    public String cityId;
 
     @SerializedName("location")
     public String cityName;
 
-    @SerializedName("cid")
-    public String weatherId;
-
     public String parent_city;
+
+    public String admin_area;
 }

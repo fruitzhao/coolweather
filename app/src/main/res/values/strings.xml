@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">酷欧天气</string>
+    <string name="app_name">第一行天气</string>
+    <string name="pref_header_general">通用</string>
 </resources>

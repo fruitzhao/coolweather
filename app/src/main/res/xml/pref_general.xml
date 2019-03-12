@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="更新频率"
+        android:dialogTitle="更新频率"
+        android:entries="@array/frequency"
+        android:entryValues="@array/fre_index" />
+
+</PreferenceScreen>
